@@ -2,7 +2,7 @@ syntax = "proto3";
 //^^^^Is needed to use newer proto syntax
 package GRPCW8;
 //^^^^Package name that is the same as the last folder from the package below - the parent folder - "GRPCW8"
-option go_package = "proto/proto";
+option go_package = "github.com/bemillant/gRPC/proto/proto.proto";
 //^^^^Path for the compiler to know what the package name of the pb.go files need to have. Matches the proto-folder
 
 
